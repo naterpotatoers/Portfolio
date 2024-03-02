@@ -1,4 +1,3 @@
-import grayscaleFull from './assets/robotics/robotics-team-pic-2022-grayscale.png'
 import me from './assets/robotics/robotics-team-pic-2022-me.png'
 import coders from './assets/robotics/robotics-team-pic-2022-coders.png'
 import full from './assets/robotics/robotics-team-2022-full.png'
@@ -7,17 +6,27 @@ import hdLogo from './assets/logos/hackdavis-logo.svg'
 import pvLogo from './assets/logos/pv-logo.svg'
 import cube3Logo from './assets/logos/cube3-logo.webp'
 import whiteHouse from './assets/robotics/white-house.png'
+import goneWithTheFire from './assets/projects/gone-with-the-fire.png'
+import goneWithTheFireDesign from './assets/projects/gone-with-the-fire-design.png'
+import cleverPedal from './assets/projects/clever-pedal.png'
+import cleverPedalDesign from './assets/projects/clever-pedal-design.png'
+import smartFlask from './assets/projects/smart-flask.png'
+import smartFlaskDesign from './assets/projects/smart-flask-design.png'
+import smartClamp from './assets/projects/smart-clamp.png'
+import smartClampDesign from './assets/projects/smart-clamp-design.png'
+
+
 function App() {
   return (
    <div>
+    <div className='parallax'>
+      <p>Nathanael Garza</p>
+      <img src={whiteHouse} className='parallax__bg parallax__foreground-front' />
+      <img src={pvLogo} className='' />
+    </div>
     <h1>Nathanael Garza</h1>
     <p>Always building, always learning, always coding.</p>
 
-    <div className='parallax'>
-      <img src={pvLogo} className='primary-header hero' />
-      <img src={whiteHouse} className='parallax__bg ' />
-    </div>
-    
     <h2>Volunteering</h2>
     <div className='col-2'>
     <img src={sjsuLogo} alt="SJSU Robotics Logo" className='logo' />
@@ -61,10 +70,18 @@ function App() {
 
     <h2>Hackathons</h2>
     <h3>Gone with the Fire</h3>
+    <img src={goneWithTheFire} alt="Gone with the Fire Final Project" />
+    <img src={goneWithTheFireDesign} alt="Gone with the Fire Design" />
     <h3>Smart Flask</h3>
+    <img src={smartFlask} alt="Smart Flask Final Project" />
+    <img src={smartFlaskDesign} alt="Smart Flask Design" />
     <h3>Clever Pedal</h3>
+    <img src={cleverPedal} alt="Clever Pedal Final Project" />
+    <img src={cleverPedalDesign} alt="Clever Pedal Design" />
     <h3>Mini Monster Truck</h3>
     <h3>Smart Clamp</h3>
+    <img src={smartClamp} alt="Smart Clamp Final Project" />
+    <img src={smartClampDesign} alt="Smart Clamp Design" />
 
     <h2>Physical Books</h2>
     <h3>Refactoring by Martin Fowler</h3>
