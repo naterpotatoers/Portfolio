@@ -23,18 +23,10 @@ import goneWithTheFireDesign from "./assets/projects/gone-with-the-fire-design.p
 function App() {
   return (
     <div>
-      <div className="parallax">
+      <div className="stack parallax">
         <img id="pv-logo" src={pvLogo} className="flex-start" />
-        <img
-          id="capitol"
-          src={capitol}
-          className="flex-end"
-        />
-        <img
-          id="protestors"
-          src={protestors}
-          className="flex-end"
-        />
+        <img id="capitol" src={capitol} className="flex-end" />
+        <img id="protestors" src={protestors} className="flex-end" />
       </div>
       <h1>Nathanael Garza</h1>
 
@@ -58,34 +50,32 @@ function App() {
         <h3>SJSU Robotics</h3>
       </div>
 
+      {/* <div className="stack"> */}
       <div className="col-2">
         <img src={me} alt="Only Me in Robotics Team" className="" />
         <p className="">
-          During Covid I was the only software engineer on the team. I spent a
-          lot of time being mentored by a prior president of the club. A lot of
-          the skills I learned from him greatly shaped me to be the engineer I
-          am today
+          During Covid I became the sole software engineer on the team. I
+          learned a lot through mentorship from a prior president of the club.
         </p>
       </div>
 
       <div className="col-2">
         <img src={coders} alt="Only Coders in Robotics Team" className="" />
         <p>
-          In the first year of school opening up after Covid, I recruited over
-          20 people for my software engineering division. Since then I've
-          probably helped train up 30-40 people to work on the robot.
+          Once in person classes resumed, I recruited over 20 people for my
+          division to program the robot and brought the team back to life.
         </p>
       </div>
 
       <div className="col-2">
         <img src={full} alt="Full Robotics Team" className="" />
         <p>
-          I am very fond of the work I did for this team as I learned a lot
-          about myself as both leader and an engineer working with other
-          engineers in different domains for a common goal. I made many friends
-          and keep in touch with many of them still to this day.
+          I learned a lot about leadership and working with other engineers in
+          different domains. To this day I still think this was one of the best
+          teams I've ever worked with.
         </p>
       </div>
+      {/* </div> */}
 
       <h3>Davis Robotics</h3>
       <p>

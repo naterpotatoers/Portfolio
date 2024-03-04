@@ -35,22 +35,22 @@
     }
   }
 
-  .parallax {
-    position: relative;
-    z-index: 0;
+  .stack {
     display: grid;
     grid-template-areas: "stack";
+  }
+
+  .stack>* {
+    grid-area: stack;
+  }
+
+  .parallax {
     height: 60vw;
   }
 
   .parallax>* {
-    grid-area: stack;
     animation: parallax linear;
     animation-timeline: scroll();
-  }
-
-  .parallax>img {
-    width: 100%;
   }
 
   #pv-logo {
